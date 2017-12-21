@@ -125,7 +125,6 @@ class TreeCheckNode extends Component {
         role="button"
         onClick={this.handleSelect}
         onKeyDown={onKeyDown}
-        ref="node"
         data-layer={layer}
         data-key={nodeData.refKey}
         style={styles}
